@@ -34,7 +34,7 @@ Large numerical sweeps (~10⁴ trajectories) reveal:
 | ID | Robust property | Verified in |
 |----|-----------------|-------------|
 | **C1** | Steady state ⇔ \(f\) has zeros | `numerical conclusion verify/` |
-| **C2** | Sign \(f(\delta_0)\) picks the target zero | `chirality dynamics/` |
+| **C2** | Sign \(f(\delta_0)\) picks the target zero | `numerical conclusion verify/` |
 | **C3** | Pre-steady motion is strictly monotone | `numerical conclusion verify/` |
 | **C4** | Post-steady drift is negligible | `numerical conclusion verify/` |
 | **C5** | Convergence stops at the first zero met | `numerical conclusion verify/` |
