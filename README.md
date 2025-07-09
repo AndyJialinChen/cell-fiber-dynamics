@@ -43,10 +43,10 @@ From these we derive a **trimmed-harmonic** estimate
 
 $$
 T_{\text{steady}}
-  = \int_{\min(\delta_0,\delta_*)}^{\max(\delta_0,\delta_*)}
-      \frac{d\delta}{\lvert f(\delta) \rvert}
-  \qquad\text{(trim }5\times10^{-4}\text{ rad)}
+  \;=\;
+  \int_{\min(\delta_0,\delta_\ast)}^{\max(\delta_0,\delta_\ast)}
+        \frac{d\delta}{\lvert f(\delta) \rvert}
+  \quad(\text{trim } 5\times10^{-4}\,\text{rad})
 $$
-
 
 which attains **0.24 % median error** across 11 130 random parameter sets.
