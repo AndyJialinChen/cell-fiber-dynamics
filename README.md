@@ -42,13 +42,11 @@ Large numerical sweeps (~10⁴ trajectories) reveal:
 From these we derive a **trimmed-harmonic** estimate
 
 $$
-\[
-T_\text{steady}=\!\!\int_{\min(\delta_0,\delta_\*)}^{\max(\delta_0,\delta_\*)}\!\!\frac{d\delta}{|f(\delta)|}
-\quad\text{(trim \(5\times10^{-4}\) rad)}
-\]
+T_{\text{steady}}
+  = \int_{\min(\delta_0,\delta_*)}^{\max(\delta_0,\delta_*)}
+      \frac{d\delta}{\lvert f(\delta) \rvert}
+  \qquad\text{(trim }5\times10^{-4}\text{ rad)}
 $$
 
+
 which attains **0.24 % median error** across 11 130 random parameter sets.
-
----
-
