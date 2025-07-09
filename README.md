@@ -21,9 +21,11 @@ fiber** (orientation \(\Theta\)).  A geometry-constrained torque balance
 reduces the system to two ODEs; subtracting yields a one-dimensional
 autonomous equation
 
+$$
 \[
 \dot{\delta}=f(\delta),\qquad\delta=\Psi-\Theta,
 \]
+$$
 
 whose \(\pi\)-periodic structure governs all dynamics.
 
@@ -39,14 +41,14 @@ Large numerical sweeps (~10⁴ trajectories) reveal:
 
 From these we derive a **trimmed-harmonic** estimate
 
+$$
 \[
 T_\text{steady}=\!\!\int_{\min(\delta_0,\delta_\*)}^{\max(\delta_0,\delta_\*)}\!\!\frac{d\delta}{|f(\delta)|}
 \quad\text{(trim \(5\times10^{-4}\) rad)}
 \]
+$$
 
 which attains **0.24 % median error** across 11 130 random parameter sets.
 
 ---
-
-## Folder map
 
